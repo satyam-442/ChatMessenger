@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradback"/>
+
+    <ImageView
+        android:id="@+id/start_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/message"
+        android:padding="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_logo"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Our Chat
+App Name"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:fontFamily="serif"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="46dp"
+            android:text="ALREADY HAVE ACCOUNT"
+            android:background="@drawable/buttons"
+            android:fontFamily="serif"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="--- O R ---"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="250dp"
+            android:layout_height="46dp"
+            android:text="NEED A NEW ACCOUNT?"
+            android:background="@drawable/buttons"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+</RelativeLayout>

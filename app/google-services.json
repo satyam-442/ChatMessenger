@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304346508632",
+    "firebase_url": "https://chatmessenger-8ce6e.firebaseio.com",
+    "project_id": "chatmessenger-8ce6e",
+    "storage_bucket": "chatmessenger-8ce6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304346508632:android:b9bc6573644aa549",
+        "android_client_info": {
+          "package_name": "com.example.sonoflordshiva.chatmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304346508632-udt7riijqsd68hq679urfham08qmf9or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sonoflordshiva.chatmessenger",
+            "certificate_hash": "94aca601513035e6e19cdfd7d019e62637e74096"
+          }
+        },
+        {
+          "client_id": "304346508632-nuu3mstjat1qb2k222tc0k8erqarps07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtJPMDY3Vt7H8xOYVVl4OLN9jn0KP7GBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304346508632-nuu3mstjat1qb2k222tc0k8erqarps07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

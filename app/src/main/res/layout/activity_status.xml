@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity"
+    android:background="@drawable/backone">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_appBar"
+        layout="@layout/app_bar_layout"/>
+
+    <ImageView
+        android:layout_below="@id/status_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradback"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="serif"
+        android:text="Update your Account Status"
+        android:textColor="#c9f4d2"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/status_input"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="280dp"
+        android:hint="Update Status"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/input"
+        android:paddingEnd="10dp" />
+
+    <Button
+        android:id="@+id/status_save_btn"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/status_input"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="serif"
+        android:text="U P D A T E" />
+
+</RelativeLayout>
